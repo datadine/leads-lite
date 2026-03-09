@@ -1,0 +1,49 @@
+# Database configuration with credentials
+db.php
+
+# Backup files
+*.bak
+*.backup
+*.old
+*_backup.*
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# PHP
+vendor/
+composer.phar
+composer.lock
+
+# Environment files
+.env
+.env.local
+
+# User uploads directory
+uploads/*.csv
+uploads/*.xlsx
+uploads/*.pdf
+
+# Session files
+sessions/
+
+# Cache
+cache/
+*.cache
