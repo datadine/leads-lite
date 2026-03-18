@@ -287,12 +287,15 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🚀 Roadmap / TODO
 
-- [ ] Add bulk SMS capability
 - [ ] Implement email integration for follow-ups
 - [ ] Add advanced reporting/analytics dashboard
 - [ ] Mobile-responsive UI improvements
-- [ ] WebRTC integration (alternative to MicroSIP)
+      
+## Good to have
+
+- [ ] WebRTC integration (alternative to MicroSIP) was tried, but the call quality dropped
 - [ ] Real-time call monitoring for supervisors
+- [ ] Add bulk SMS capability
 - [ ] Voicemail drop integration
 - [ ] CRM integration (Salesforce, HubSpot)
 
