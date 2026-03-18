@@ -1,0 +1,15 @@
+<?php
+// FusionPBX Database Configuration - COPY THIS TO fusionpbx_config.php AND ADD YOUR CREDENTIALS
+require_once __DIR__ . '/../db.php';
+
+try {
+    $pdo_fusion = new PDO(
+        "pgsql:host=127.0.0.1;port=5432;dbname=fusionpbx",
+        "your_fusionpbx_user",
+        "your_fusionpbx_password"
+    );
+    $pdo_fusion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    die("FusionPBX connection failed: " . $e->getMessage());
+}
+?>

@@ -1,3 +1,7 @@
+# Credentials - NEVER commit these!
+db.php
+fusionpbx/fusionpbx_config.php
+
 # Backup files
 *.backup
 *_OLD.php
