@@ -11,8 +11,3 @@ fusionpbx/test*.php
 fusionpbx/session_test.php
 fusionpbx_debug.php
 sip_config.php
-.env
-*.bak
-*.sql
-*.pem
-*.key
