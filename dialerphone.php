@@ -577,6 +577,7 @@ body {
 <script type="text/javascript" src="/saraphone/js/sip.js"></script>
 <script>
 // ── Config ────────────────────────────────────────────────────────────────────
+<<<<<<< HEAD
 
 var WS_SERVER  = '<?php echo SIP_WS_SERVER; ?>';
 var SIP_DOMAIN = '<?php echo SIP_DOMAIN; ?>';
@@ -720,7 +721,7 @@ function initSIP(ext, pass, name) {
 
     ua = new SIP.UA({
         wsServers        : WS_SERVER,
-        uri              : ext + '@' + 'sip.theunionconsulting.com',
+        uri              : ext + '@' + 'sip.domain.com',
         password         : pass,
         displayName      : name || ext,
         hackWssInTransport: true,
