@@ -577,8 +577,9 @@ body {
 <script type="text/javascript" src="/saraphone/js/sip.js"></script>
 <script>
 // ── Config ────────────────────────────────────────────────────────────────────
-var WS_SERVER  = 'wss://sip.theunionconsulting.com:7443';
-var SIP_DOMAIN = 'sip.theunionconsulting.com';
+
+var WS_SERVER  = '<?php echo SIP_WS_SERVER; ?>';
+var SIP_DOMAIN = '<?php echo SIP_DOMAIN; ?>';
 
 // ── State ─────────────────────────────────────────────────────────────────────
 var ua = null;
